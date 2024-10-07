@@ -17,39 +17,51 @@ Le tipologie di giocattoli invece vengono sostituiti dai datatype (tipologie di 
 1.String = dati composti da caratteri di testo, un pò come il nome di Andrea.
 2.Number = dati numerici, 5 come le lettere del nome di Andrea.
 3.Boolean = dati che hanno SOLO due valori , true=vero ; false=falso.
-Il Terminale è dove possiamo constatare che i vari bauli di giocattoli contengano i giusti giocattoli
+Il Terminale è dove possiamo constatare che i vari bauli di giocattoli contengano i giusti giocattoli.
 */
 
 /* ESERCIZIO 2
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let myName = "Alessandro";
+console.log(myName);
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let num1 = 12;
+let num2 = 20;
+let somma = num1 + num2;
+console.log(somma);
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let numX = "x";
+numX = 12;
+console.log(numX);
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "myName" già esistente: il tuo cognome.
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+myName = "Querci";
+const mySurname = "Querci";
+/* mySurname = "Alessandro";
+console.log(mySurname);               / inseriti in un commento in quanto bloccano l'esecuzione di JavaScript  
+*/
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let numero = 4;
+let sottrazione = numero - numX;
+console.log(sottrazione);
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -57,4 +69,8 @@ Il Terminale è dove possiamo constatare che i vari bauli di giocattoli contenga
  EXTRA: verifica che la loro uguaglianza diventi true se entrambe vengono trasformate in lowercase (senza cambiare il valore di name2!).
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let name1 = "john";
+let name2 = "John";
+console.log(name1 !== name2);
+name1 = name2;
+console.log(name1 == name2);
